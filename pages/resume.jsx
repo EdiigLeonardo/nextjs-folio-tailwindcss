@@ -6,7 +6,7 @@ const resume = () => {
   return (
     <>
       <Head>
-        <title>Clint | Resume</title>
+        <title>Edig Leonardo | Resume</title>
         <meta
           name='description'
           content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
@@ -65,17 +65,17 @@ const resume = () => {
           <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
           <p className='py-2'>
             <span className='font-bold'>Technical Skills</span>
-            <span className='px-2'>|</span>Front-End Web Developer
-            <span className='px-2'>|</span> HTML
-            <span className='px-2'>|</span>CSS
-            <span className='px-2'>|</span>Javascript
-            <span className='px-2'>|</span>React
+            <span className='px-2'>|</span>FullStack | Software Engineer
+            <span className='px-2'>|</span> React
+            <span className='px-2'>|</span>Angular
+            <span className='px-2'>|</span>NodeJs
+            <span className='px-2'>|</span>ExpressJS
             <span className='px-2'>|</span>Next JS
             <span className='px-2'>|</span>SQL
             <span className='px-2'>|</span>NoSQL
             <span className='px-2'>|</span>Redux
             <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span> Firebase
+            <span className='px-2'>|</span> Python
             <span className='px-2'>|</span> RESTAPI
           </p>
           <p className='py-2'>

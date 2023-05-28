@@ -8,10 +8,11 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import ContactImg from '../public/assets/contact.jpg';
 
 const Contact = () => {
+  const tertiaryColor = "#ecf0f3"
   return (
     <div id='contact' className='w-full lg:h-screen'>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
-        <p className={`text-xl tracking-widest uppercase text-[${tertiary-color}]`}>
+        <p className={`text-xl tracking-widest uppercase text-[${tertiaryColor}]`}>
           Contact
         </p>
         <h2 className='py-4'>Get In Touch</h2>
@@ -27,10 +28,10 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className='py-2'>Clint Briley</h2>
-                <p>Front-End Developer</p>
+                <h2 className='py-2'>Edig Leonardo</h2>
+                <p>Fullstack Developer | Software Engineer</p>
                 <p className='py-4'>
-                  I am available for freelance or full-time positions. Contact
+                  I am available for full-time positions. Contact
                   me and let&apos;s talk.
                 </p>
               </div>
@@ -38,7 +39,7 @@ const Contact = () => {
                 <p className='uppercase pt-8'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
                   <a
-                    href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                    href='https://www.linkedin.com/in/edig-leonardo77/'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -47,7 +48,7 @@ const Contact = () => {
                     </div>
                   </a>
                   <a
-                    href='https://github.com/fireclint'
+                    href='https://github.com/EdiigLeonardo?tab=repositories'
                     target='_blank'
                     rel='noreferrer'
                   >
