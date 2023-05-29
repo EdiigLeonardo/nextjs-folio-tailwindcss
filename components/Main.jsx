@@ -15,10 +15,9 @@ const Main = () => {
           <h1 className='py-4 text-gray-700'>
             Hi, I&#39;m <span className='text-[#5651e5]'> Edig</span>
           </h1>
-          <h1 className='py-2 text-gray-700'>A Fullstack Developer</h1>
+          <h1 className='py-2 text-gray-700'>A Fullstack Developer | Software Engineer</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
           I am dedicated to crafting responsive and cutting-edge Fullstack solutions that seamlessly integrate powerful back-end technologies. 
-          With a focus on delivering professional and innovative experiences, I strive to create dynamic and user-friendly applications that meet the highest standards of excellence.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a

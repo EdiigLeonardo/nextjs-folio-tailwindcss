@@ -6,21 +6,20 @@ const resume = () => {
   return (
     <>
       <Head>
-        <title>Edig Leonardo | Resume</title>
+        <title>Edig Leonardo | Nextjs Folio | Resume</title>
         <meta
           name='description'
-          content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
+          content='I’m a FULLSTACK specializing in building (and occasionally designing) exceptional digital experiences.'
         />
-        <link rel='icon' href='/fav.png' />
       </Head>
 
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
         <h2 className='text-center'>Resume</h2>
         <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
-          <h2 className='text-center'>Clint Briley</h2>
+          <h2 className='text-center'>Edig Leonardo</h2>
           <div className='flex'>
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
+              href='https://www.linkedin.com/in/edig-leonardo77/'
               target='_blank'
               rel='noreferrer'
             >
@@ -38,8 +37,8 @@ const resume = () => {
         <div className='text-center py-4 text-xl font-bold uppercase tracking-wider'>
           <div className='hidden sm:block'>
             <p>
-              Proven Leadership <span className='px-1'>|</span> Web Development{' '}
-              <span className='px-1'>|</span> Complex Problem Solving
+            Software Engineer |<span className='px-1'>|</span> FullStack ||{' '}
+              <span className='px-1'></span> MERN DEVELOPER
             </p>
           </div>
           <div className='block sm:hidden'>
@@ -48,40 +47,30 @@ const resume = () => {
             <p>Complex Problem Solving</p>
           </div>
         </div>
-        <p>
-          Analytical, innovative, and motivated web development professional
-          with experience in customer service, team leadership, and
-          organizational effectiveness in fast-paced and challenging
-          environments. Adept at developing strategies and driving streamlined
-          operations. Diverse analytical skills, team collaboration, and
-          relationship building. Consummate professional, and motivated leader,
-          with solid interpersonal abilities and complex problem-solving skills.
-          Effective and proven track record of critical thinking, idea
-          generation, and optimizing efficiencies.
-        </p>
 
-        {/* Skills */}
         <div className='text-center py-4'>
           <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
           <p className='py-2'>
             <span className='font-bold'>Technical Skills</span>
             <span className='px-2'>|</span>FullStack | Software Engineer
-            <span className='px-2'>|</span> React
             <span className='px-2'>|</span>Angular
+            <span className='px-2'>|</span>React
+            <span className='px-2'>|</span>TypeScript
             <span className='px-2'>|</span>NodeJs
             <span className='px-2'>|</span>ExpressJS
             <span className='px-2'>|</span>Next JS
             <span className='px-2'>|</span>SQL
+            <span className='px-2'>|</span>Flask || Django
             <span className='px-2'>|</span>NoSQL
             <span className='px-2'>|</span>Redux
-            <span className='px-2'>|</span>Tailwind
+            <span className='px-2'>|</span>TailwindCSS
             <span className='px-2'>|</span> Python
-            <span className='px-2'>|</span> RESTAPI
+            <span className='px-2'>|</span> RESTful
           </p>
           <p className='py-2'>
-            <span className='font-bold'>Amazon Web Services</span>
-            <span className='px-2'>|</span>Amazon Web Services Cloud
-            Practitioner
+            <span className='font-bold'>Kubernetes</span>
+            <span className='px-2'>|</span>Docker
+
           </p>
         </div>
 
@@ -92,27 +81,28 @@ const resume = () => {
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-            INFINITE TECH
+            Capgemini Engineering
             </span>
-            <span className='px-2'>|</span>Dallas, TX
+            <span className='px-2'>|</span>Lisboa, LS
           </p>
-          <p className='py-1 italic'>Front End Web Developer & Web Master (2013 - Current)</p>
+          <p className='py-1 italic'>Sofware Engineer Intern (2023 - Current)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              Ensured comprehensive mobile responsive UI layouts with
-              understanding of HTML, CSS, and JavaScript.
+            Collaborated with senior developers to design and
+            develop responsive web applications using React and
+            Angular
             </li>
             <li>
-              Troubleshoot issues and concerns, configure operation and analytic
-              plugins, and design changes as needed.
+              Utilized NodeJs, ExpressJs, and SQL to build serverside functionalities
+              || Configuration of Kubernetes and docker
             </li>
             <li>
-              Worked directly with a diverse client base to understand and
-              implement multiple technologies and programs.
+              Building and integrating with RESTful APIs. Creating and managing databases using technologies
+              like SQL
             </li>
             <li>
-              Platform migration managing DNS servers as well as MX records and
-              ensuring a smooth migration process.
+            Participating in Agile development process, Scrum
+            meetings, and retrospectives.
             </li>
           </ul>
         </div>
@@ -122,63 +112,36 @@ const resume = () => {
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-              Teaching & Mentoring Web Development
+              UPSKILLS | ISCTE
             </span>
-            <span className='px-2'>|</span>Dallas, TX
+            <span className='px-2'>|</span>SINTRA, LISBOA, LS
           </p>
-          <p className='py-1 italic'>Code Commerce - Youtube Channel (2021 - Current)</p>
+          <p className='py-1 italic'>FULL STACK DEVELOPER (MAR 2022 - JAN 2023)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              In 2021 I started “Code Commerce”, a YouTube channel focused on
-              sharing what I’m learning in web development, specifically
-              front-end development.
+            Building and maintaining the front-end of web
+            applications using languages such as HTML, CSS,
+            and JavaScript Developing and implementing
             </li>
             <li>
-              Private 1 on 1 Zoom coaching calls related to web development.
-              More specifically debugging, teaching basic web development
-              concepts and code reviews.
-            </li>
-          </ul>
-        </div>
-
-        {/*  */}
-        <h5 className='text-center underline text-[18px] py-4'>
-          Other Professional Experience
-        </h5>
-      
-        {/* Experience */}
-        <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold'>CITY OF SHERMAN, TX</span>
-            <span className='px-2'>|</span>Sherman, TX
-          </p>
-          <p className='py-1 italic'>Paramedic / Firefighter (2010 – 2019)</p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-            <li>
-              Ensured proper implementation of firefighting techniques and
-              practices including controlling and extinguishing fires, operating
-              hose lines, and fire ground operations, ventilation, and search
-              and rescue.
+            back-end logic using languages such as NodeJs, ExpressJS
+            and Drupal
             </li>
             <li>
-              Oversaw comprehensive understanding, operation, and maintenance of
-              fire engines, ladder trucks, technical rescue apparatus, and
-              response trailers.
+            Building and integrating with RESTful APIs.
             </li>
             <li>
-              Performed ALS techniques as needed within emergency situations
-              including the use of an esophageal or dual lumen airway device and
-              oral intubation using laryngoscopy.
+            Creating and managing databases using
+            technologies like MySQL, SQL and Postgre
             </li>
             <li>
-              Collaborated with a talented and high performing team of
-              firefighters in high pressure and stressful situations as needed.
+            Participating in Agile development process,
             </li>
             <li>
-              Utilized proven and demonstrated knowledge of multiple
-              certifications including Pediatric Advanced Life Support,
-              Prehospital Trauma Life Support, and Advanced Cardiac Life
-              Support, among others.
+            Scrum meeting, and retrospectives.
+            </li>
+            <li>
+            Preparing technical documentation.
             </li>
           </ul>
         </div>
