@@ -13,7 +13,7 @@ const resume = () => {
         />
       </Head>
 
-      <div className='max-w-[940px] mx-auto p-2 pt-[120px] text-[#272465]'>
+      <div className='w-full mx-auto p-2 pt-[120px] text-[#272465]'>
         <h2 className='text-center'>Resume</h2>
         <div className='bg-[#FCF7FF] my-4 p-4 w-full flex justify-between items-center'>
           <h2 className='text-center'>Edig Leonardo</h2>
