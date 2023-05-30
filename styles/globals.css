@@ -23,6 +23,10 @@ button, a{
   text-transform: uppercase;
 }
 
+li{
+  cursor: text;
+}
+
 @layer base {
   body {
     @apply bg-[#ecf0f3] text-[#1f1d50] tracking-wide

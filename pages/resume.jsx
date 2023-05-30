@@ -37,7 +37,7 @@ const resume = () => {
         <div className='text-center py-4 text-xl font-bold uppercase tracking-wider'>
           <div className='hidden sm:block'>
             <p>
-            Software Engineer |<span className='px-1'>|</span> FullStack ||{' '}
+            Software Engineer<span className='px-1'>|</span> FullStack |{' '}
               <span className='px-1'></span> MERN DEVELOPER
             </p>
           </div>
@@ -61,7 +61,7 @@ const resume = () => {
             <span className='px-2'>|</span>ExpressJS
             <span className='px-2'>|</span>Next JS
             <span className='px-2'>|</span>SQL
-            <span className='px-2'>|</span>Flask || Django
+            <span className='px-2'>|</span>Flask | Django
             <span className='px-2'>|</span>NoSQL
             <span className='px-2'>|</span>TailwindCSS
             <span className='px-2'>|</span> Python
