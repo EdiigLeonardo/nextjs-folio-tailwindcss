@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title style="text-transform: uppercase">Edig | FullStack Developer | Folio in NextJs and TailwindCSS</title>
+        <title>Edig | FullStack Developer | Folio in NextJs and TailwindCSS</title>
       </Head>
       <Main />
       <About />

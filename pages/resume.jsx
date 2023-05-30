@@ -65,7 +65,7 @@ const resume = () => {
             <span className='px-2'>|</span>Redux
             <span className='px-2'>|</span>TailwindCSS
             <span className='px-2'>|</span> Python
-            <span className='px-2'>|</span> RESTful
+            <span className='px-2'>|</span> RESTful Api
           </p>
           <p className='py-2'>
             <span className='font-bold'>Kubernetes</span>
