@@ -32,13 +32,13 @@ const property = () => {
             The project at hand is a sophisticated web-based platform, reminiscent of Airbnb, developed using a technology stack comprising Node.js, Angular, and TypeScript. 
             This endeavor aims to provide an exceptional accommodation marketplace experience, offering a wide array of features and functionalities for both hosts and guests.
 
-            Built upon the reliable Node.js runtime environment, the project's backend boasts a robust foundation that ensures scalability, efficiency, and high-performance. 
+            Built upon the reliable Node.js runtime environment, the projects backend boasts a robust foundation that ensures scalability, efficiency, and high-performance. 
             Leveraging the event-driven architecture of Node.js, the platform seamlessly handles concurrent requests, guaranteeing optimal responsiveness and reliability. The backend implementation includes essential features such as user management, secure payment processing, and real-time communication between hosts and guests.
 
             On the frontend, the project harnesses the power of Angular, a comprehensive and versatile framework for building dynamic user interfaces. 
             By utilizing Angular, developers can create engaging and intuitive user experiences with ease. The framework's extensive set of tools and components enables the implementation of features like responsive design, seamless navigation, and efficient data binding. Through Angular's modular and component-based structure, the frontend development becomes streamlined and maintainable, ensuring a top-notch user interface.
 
-            To enhance the project's development experience, TypeScript, a strongly-typed superset of JavaScript, is employed as the primary programming language. 
+            To enhance the projects development experience, TypeScript, a strongly-typed superset of JavaScript, is employed as the primary programming language. 
             By embracing TypeScript, developers benefit from static typing, which helps identify and prevent errors during the development phase, leading to more robust and reliable code. Additionally, TypeScript provides advanced tooling and editor support, enabling efficient development workflows and improving overall productivity.
 
             In summary, the project represents a remarkable undertaking that emulates the functionality and essence of Airbnb. With its backend powered by Node.js, frontend built using Angular, and development enriched by TypeScript, this project delivers a highly scalable, performant, and user-friendly accommodation marketplace. 
