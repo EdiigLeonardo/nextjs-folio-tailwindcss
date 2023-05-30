@@ -13,9 +13,9 @@ const resume = () => {
         />
       </Head>
 
-      <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
+      <div className='max-w-[940px] mx-auto p-2 pt-[120px] text-[#272465]'>
         <h2 className='text-center'>Resume</h2>
-        <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
+        <div className='bg-[#FCF7FF] my-4 p-4 w-full flex justify-between items-center'>
           <h2 className='text-center'>Edig Leonardo</h2>
           <div className='flex'>
             <a
@@ -57,19 +57,20 @@ const resume = () => {
             <span className='px-2'>|</span>React
             <span className='px-2'>|</span>TypeScript
             <span className='px-2'>|</span>NodeJs
+            <span className='px-2'>|</span>Redux
             <span className='px-2'>|</span>ExpressJS
             <span className='px-2'>|</span>Next JS
             <span className='px-2'>|</span>SQL
             <span className='px-2'>|</span>Flask || Django
             <span className='px-2'>|</span>NoSQL
-            <span className='px-2'>|</span>Redux
             <span className='px-2'>|</span>TailwindCSS
             <span className='px-2'>|</span> Python
             <span className='px-2'>|</span> RESTful Api
+            <span className='px-2'>|</span> Jasmine
           </p>
           <p className='py-2'>
             <span className='font-bold'>Kubernetes</span>
-            <span className='px-2'>|</span>Docker
+            <span className='px-2 font-bold'>|</span>Docker
 
           </p>
         </div>
