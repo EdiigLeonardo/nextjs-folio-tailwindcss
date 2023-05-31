@@ -86,7 +86,7 @@ const resume = () => {
             </span>
             <span className='px-2'>|</span>Lisboa, LS
           </p>
-          <p className='py-1 italic'>Sofware Engineer(2023 - Current)</p>
+          <p className='py-1 italic'>Sofware Engineer (2023 - Current)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
             Collaborated with senior developers to design and
