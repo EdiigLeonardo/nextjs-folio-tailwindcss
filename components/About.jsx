@@ -12,7 +12,7 @@ const About = () => {
             About
           </p>
           <h2 className='py-4'>Who I Am</h2>
-          <p className='py-2 text-gray-600'>
+          <p className='py-2 text-gray-600 text-justify'>
           With a strong foundation in JavaScript, SQL, and Python, I bring a versatile skill set to the table. 
           I have hands-on experience with a range of frameworks and libraries, including React, Angular, Node.js, Express.js, Flask, and Next.js, enabling me to tackle diverse development projects with confidence. 
           My proficiency extends to essential tools such as Git, Rest, Jira, and Redux, facilitating efficient collaboration and streamlined workflow. 
