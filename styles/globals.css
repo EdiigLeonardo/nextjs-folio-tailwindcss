@@ -48,6 +48,12 @@ img{
   max-height: 100vh;
 }
 
+.my_hidden{
+  @media (max-width: 768px) {
+        display: none;
+  }
+}
+
 
 @layer base {
   body {
