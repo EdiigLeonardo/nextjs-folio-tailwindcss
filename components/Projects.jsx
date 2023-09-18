@@ -5,7 +5,7 @@ import library_upskill from '../public/assets/projects/library_upskill.png'
 import upbnb_upskill from '../public/assets/projects/upbnb_upskill.png';
 import npmproxy from '../public/assets/projects/npmproxy.png';
 import recipes from '../public/assets/projects/recipes.png';
-import amortizationImage from '../public/assets/projects/amortization.png';
+import amortizationImage from '../public/assets/projects/amortization_list.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {

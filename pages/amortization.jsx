@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import amortizationImage from "../public/assets/projects/amortization.png"
+import amortizationImage from "../public/assets/projects/amortization_list.png"
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const library = () => {
+const amortization = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -17,8 +17,8 @@ const library = () => {
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Library Upskill App</h2>
-          <h3>Angular / SCSS / NodeJS / RESTful API</h3>
+          <h2 className='py-2'>Amortizations List</h2>
+          <h3>Vuejs / TailwindCss / NodeJS / RESTful API</h3>
         </div>
       </div>
 
@@ -88,4 +88,4 @@ const library = () => {
   );
 };
 
-export default library;
+export default amortization;

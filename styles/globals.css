@@ -13,14 +13,8 @@ html {
   overflow-y: auto;
   overflow-x: hidden;
   scrollbar-width: 1rem;
+  font-size: 16px;
 }
-
-/* html::-webkit-scrollbar {
-  
-}
-
-html::-webkit-scrollbar-thumb{
-} */
 
 ::-webkit-scrollbar {
   width: 0.8em;

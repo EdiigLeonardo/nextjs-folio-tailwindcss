@@ -4,7 +4,7 @@ import recipes from "../public/assets/projects/recipes.png"
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const library = () => {
+const recipe = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -81,4 +81,4 @@ const library = () => {
   );
 };
 
-export default library;
+export default recipe;
