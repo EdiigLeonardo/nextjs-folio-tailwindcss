@@ -3,10 +3,9 @@ import Link from 'next/link';
 import React from 'react';
 import library_upskill from '../public/assets/projects/library_upskill.png'
 import upbnb_upskill from '../public/assets/projects/upbnb_upskill.png';
-import reduxfolio from '../public/assets/projects/reduxfolio.png';
 import npmproxy from '../public/assets/projects/npmproxy.png';
 import recipes from '../public/assets/projects/recipes.png';
-import amortization from '../public/assets/projects/amortization.png';
+import amortizationImage from '../public/assets/projects/amortization.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -40,7 +39,7 @@ const Projects = () => {
 
           <ProjectItem
             title='Amortization List'
-            backgroundImg={amortization}
+            backgroundImg={amortizationImage}
             projectUrl='/amortization'
             tech='Vue.js'
           />
@@ -51,13 +50,6 @@ const Projects = () => {
             projectUrl='/npmproxy'
             tech='React'
           />
-
-          {/*           <ProjectItem
-            title='React Folio'
-            backgroundImg={reduxfolio}
-            projectUrl='/portfolio'
-            tech='React'
-          /> */}
         </div>
       </div>
     </div>
