@@ -10,7 +10,7 @@ import ContactImg from '../public/assets/contact.jpg';
 const Contact = () => {
   const tertiaryColor = "#ecf0f3"
   return (
-    <div id='contact' className={`w-full lg:h-screen bg-[${tertiaryColor}]`}>
+    <div id='contact' className={`w-full h-full lg:h-screen bg-[${tertiaryColor}]`}>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
         <p className={`text-xl tracking-widest uppercase text-[${tertiaryColor}]`}>
           Contact

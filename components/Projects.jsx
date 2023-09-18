@@ -5,11 +5,13 @@ import library_upskill from '../public/assets/projects/library_upskill.png'
 import upbnb_upskill from '../public/assets/projects/upbnb_upskill.png';
 import reduxfolio from '../public/assets/projects/reduxfolio.png';
 import npmproxy from '../public/assets/projects/npmproxy.png';
+import recipes from '../public/assets/projects/recipes.png';
+import amortization from '../public/assets/projects/amortization.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
   return (
-    <div id='projects' className='w-full'>
+    <div id='projects' className='w-full h-full px-5 col-span-3'>
       <div className='max-w-[100vw] mx-auto px-2 py-16'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Projects
@@ -17,10 +19,30 @@ const Projects = () => {
         <h2 className='py-4 text-bold'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='React Folio'
-            backgroundImg={reduxfolio}
-            projectUrl='/portfolio'
-            tech='React'
+            title='Library Manager'
+            backgroundImg={library_upskill}
+            projectUrl='/library'
+            tech='Angular'
+          />
+
+          <ProjectItem
+            title='Meals Catalogs'
+            backgroundImg={recipes}
+            projectUrl='/recipe'
+            tech='Vue.js'
+          />
+          <ProjectItem
+            title='Real Estate - Upbnb'
+            backgroundImg={upbnb_upskill}
+            projectUrl='/upbnb'
+            tech='Angular'
+          />
+
+          <ProjectItem
+            title='Amortization List'
+            backgroundImg={amortization}
+            projectUrl='/amortization'
+            tech='Vue.js'
           />
 
           <ProjectItem
@@ -30,18 +52,12 @@ const Projects = () => {
             tech='React'
           />
 
-          <ProjectItem
-            title='Upbnb'
-            backgroundImg={upbnb_upskill}
-            projectUrl='/upbnb'
-            tech='Angular'
-          />
-          <ProjectItem
-            title='Library Manager'
-            backgroundImg={library_upskill}
-            projectUrl='/library'
-            tech='Angular'
-          />
+          {/*           <ProjectItem
+            title='React Folio'
+            backgroundImg={reduxfolio}
+            projectUrl='/portfolio'
+            tech='React'
+          /> */}
         </div>
       </div>
     </div>

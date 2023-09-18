@@ -8,9 +8,9 @@ import Skills from '../components/Skills'
 
 export default function Home() {
   return (
-    <div>
+    <div className='w-full h-full'>
       <Head>
-        <title>Edig | FullStack Developer | Folio in NextJs and TailwindCSS</title>
+        <title>Edig Portfolio | FullStack Developer | NextJs and TailwindCSS</title>
       </Head>
       <Main />
       <About />

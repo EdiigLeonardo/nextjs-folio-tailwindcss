@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import library_upskill_mobile from "../public/assets/projects/library_upskill_mobile.png"
+import amortization from "../public/assets/projects/amortization.png"
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -13,7 +13,7 @@ const library = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={library_upskill_mobile}
+          src={amortization}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
@@ -34,14 +34,21 @@ const library = () => {
             This project not only exemplifies our technical expertise but also underscores our dedication to delivering innovative and user-centric solutions in the ever-evolving world of technology.
           </p>
           <a
-            href='https://github.com/EdiigLeonardo/library_-_w_angular_-_nodeJs'
+            href='https://github.com/EdiigLeonardo/AmortizationList-VueJS-TypeScript-Tailwind.git'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+            <button className='px-8 py-2 mt-4 mr-8'>Frontend Code</button>
           </a>
           <a
-            href='https://library-git-master-ediigleonardo.vercel.app/livros'
+            href='https://github.com/EdiigLeonardo/AmortizationList-Laravell.git'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <button className='px-8 py-2 mt-4 mr-8'>Backend Code</button>
+          </a>
+          <a
+            href='https://gp-amortization-vuejs-vite-tailwind.netlify.app'
             target='_blank'
             rel='noreferrer'
           >
@@ -53,10 +60,10 @@ const library = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1 '>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Angular
+                <RiRadioButtonFill className='pr-1' /> Vuejs
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> MySQL
+                <RiRadioButtonFill className='pr-1' /> TailwindCSS
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript

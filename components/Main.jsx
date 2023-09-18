@@ -17,7 +17,8 @@ const Main = () => {
           </h1>
           <h1 className='py-2 text-gray-700'>A Fullstack Developer | Software Engineer</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-          I am dedicated to crafting responsive and cutting-edge Fullstack solutions that seamlessly integrate powerful back-end technologies. 
+            I am wholeheartedly committed to designing responsive and cutting-edge Fullstack solutions that seamlessly integrate robust back-end technologies. 
+            My passion lies in creating user-centric experiences that leverage the full potential of modern technology stacks.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a

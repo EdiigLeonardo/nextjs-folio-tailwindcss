@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import library_upskill_mobile from "../public/assets/projects/library_upskill_mobile.png"
+import recipes from "../public/assets/projects/recipes.png"
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -13,12 +13,12 @@ const library = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={library_upskill_mobile}
+          src={recipes}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Library Upskill App</h2>
-          <h3>Angular / SCSS / NodeJS / RESTful API</h3>
+          <h2 className='py-2'>Recipes Blogspot</h2>
+          <h3>Vue.js / TailwindCss / NodeJS / RESTful API</h3>
         </div>
       </div>
 
@@ -34,14 +34,14 @@ const library = () => {
             This project not only exemplifies our technical expertise but also underscores our dedication to delivering innovative and user-centric solutions in the ever-evolving world of technology.
           </p>
           <a
-            href='https://github.com/EdiigLeonardo/library_-_w_angular_-_nodeJs'
+            href='https://github.com/EdiigLeonardo/themealdb-vuejs.git'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://library-git-master-ediigleonardo.vercel.app/livros'
+            href='https://meals-vuejs.netlify.app/'
             target='_blank'
             rel='noreferrer'
           >
@@ -53,10 +53,10 @@ const library = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1 '>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Angular
+                <RiRadioButtonFill className='pr-1' /> Vuejs
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> MySQL
+                <RiRadioButtonFill className='pr-1' /> TailwindCss
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript
