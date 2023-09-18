@@ -18,7 +18,7 @@ html {
 
 ::-webkit-scrollbar {
   width: 0.8em;
-
+  background: transparent; 
 }
 ::-webkit-scrollbar-track {
   background: transparent; 
