@@ -80,7 +80,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-full bg-[#ecf0f3] p-10 ease-in duration-500'
+              ? ' fixed left-0 top-0 bottom-0 w-[75%] sm:w-[60%] md:w-[45%] h-full bg-[#ecf0f3] p-10 ease-in duration-500'
               : 'fixed left-[-150%] top-0 p-10 ease-in duration-10'
           }
         >
