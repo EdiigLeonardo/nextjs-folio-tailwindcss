@@ -12,6 +12,7 @@ const Navbar = () => {
   const [linkColor, setLinkColor] = useState('#1f2937');
 
   const handleNav = () => {
+    console.log("im working::: ")
     setNav(!nav);
   };
 
@@ -61,7 +62,7 @@ const Navbar = () => {
           <div
             style={{ color: `${linkColor}` }}
             onClick={handleNav}
-            className='md:hidden'
+            className='md:hidden z-500'
           >
             <AiOutlineMenu size={25} />
           </div>
@@ -80,7 +81,7 @@ const Navbar = () => {
           className={
             nav
               ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
-              : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
+              : 'fixed left-[-150%] top-0 p-10 ease-in duration-10'
           }
         >
           <div>
