@@ -21,17 +21,17 @@ html {
   background: transparent; 
 }
 ::-webkit-scrollbar-track {
-  background: transparent; 
+  background: rgba(0, 0, 0, 0.007); 
 }
 ::-webkit-scrollbar-thumb {
   opacity: 0.2;
-  background: #1e1c4f; 
+  background: rgba(70, 114, 190, 0.623); 
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
   opacity: 0.5;
-  background: #322e85; 
+  background: #322e8570; 
   border-radius: 10px;
 }
 
