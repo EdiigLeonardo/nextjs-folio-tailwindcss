@@ -6,6 +6,7 @@ import upbnb_upskill from '../public/assets/projects/upbnb_upskill.png';
 import npmproxy from '../public/assets/projects/npmproxy.png';
 import recipes from '../public/assets/projects/recipes.png';
 import amortizationImage from '../public/assets/projects/amortization_list.png';
+import carImage from '../public/assets/projects/car_app.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -17,6 +18,13 @@ const Projects = () => {
         </p>
         <h2 className='py-4 text-bold'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
+          <ProjectItem
+            title='Drive Car App'
+            backgroundImg={carImage}
+            projectUrl='/drive'
+            tech='React.js'
+          />
+          
           <ProjectItem
             title='Library Manager'
             backgroundImg={library_upskill}
