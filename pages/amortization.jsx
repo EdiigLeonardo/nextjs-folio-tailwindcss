@@ -27,11 +27,8 @@ const amortization = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I have proudly crafted an extensive library harnessing the power of cutting-edge technologies, including Node.js, SQL, and Angular. Our solution stands as a testament to our commitment to excellence, offering users a seamless experience for managing their favorite books and conducting efficient searches for both authors and books within our high-performance database.
-
-            Our project showcases exceptional responsiveness, guaranteeing an intuitive and fluid user interface that prioritizes user satisfaction. Leveraging the REST architecture, we have optimized data consumption, resulting in efficient retrieval and manipulation of information.
-
-            This project not only exemplifies our technical expertise but also underscores our dedication to delivering innovative and user-centric solutions in the ever-evolving world of technology.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
           </p>
           <a
             href='https://github.com/EdiigLeonardo/AmortizationList-VueJS-TypeScript-Tailwind.git'
