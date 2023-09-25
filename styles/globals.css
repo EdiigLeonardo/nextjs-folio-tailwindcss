@@ -27,6 +27,10 @@ html {
 ::-webkit-scrollbar-thumb {
   opacity: 0.2;
   background: #4571BD; 
+}
+::-webkit-scrollbar-thumb {
+  opacity: 0.2;
+  background: rgba(70, 114, 190, 0.623); 
   border-radius: 5px;
 }
 
