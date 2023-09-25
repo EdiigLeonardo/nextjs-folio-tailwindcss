@@ -17,8 +17,8 @@ const drive = () => {
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Library Upskill App</h2>
-          <h3>Angular / SCSS / NodeJS / RESTful API</h3>
+          <h2 className='py-2'>Drive app</h2>
+          <h3>React / TailwindCSS / NodeJS / RESTful API</h3>
         </div>
       </div>
 
@@ -27,11 +27,8 @@ const drive = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I have proudly crafted an extensive library harnessing the power of cutting-edge technologies, including Node.js, SQL, and Angular. Our solution stands as a testament to our commitment to excellence, offering users a seamless experience for managing their favorite books and conducting efficient searches for both authors and books within our high-performance database.
-
-            Our project showcases exceptional responsiveness, guaranteeing an intuitive and fluid user interface that prioritizes user satisfaction. Leveraging the REST architecture, we have optimized data consumption, resulting in efficient retrieval and manipulation of information.
-
-            This project not only exemplifies our technical expertise but also underscores our dedication to delivering innovative and user-centric solutions in the ever-evolving world of technology.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
           </p>
           <a
             href='https://github.com/EdiigLeonardo/library_-_w_angular_-_nodeJs'
