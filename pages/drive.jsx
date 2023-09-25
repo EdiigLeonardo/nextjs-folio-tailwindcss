@@ -6,11 +6,11 @@ import Link from 'next/link';
 
 const drive = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full m-auto'>
       <div className='w-screen h-[50vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
         <Image
-          className='absolute z-1'
+          className='absolute z-1 min-w-full'
           layout='fill'
           objectFit='cover'
           src={driveImage}
@@ -53,7 +53,10 @@ const drive = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1 '>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Angular
+                <RiRadioButtonFill className='pr-1' /> React.js
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> TailwindCss
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> MySQL
