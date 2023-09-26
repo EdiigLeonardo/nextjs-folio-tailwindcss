@@ -235,7 +235,6 @@ const resume = () => {
         </ul>
       </div>
 
-
     </>
   );
 };
