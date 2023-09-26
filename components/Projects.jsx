@@ -50,7 +50,7 @@ const Projects = () => {
           />
 
           <ProjectItem
-            title='Grow With Data'
+            title='Grow.It'
             backgroundImg={growitImage}
             projectUrl='/growit'
             tech='React.js'
