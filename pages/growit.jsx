@@ -42,7 +42,7 @@ const growit = () => {
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='growit-project.netlify.app'
+            href='https://growit-project.netlify.app'
             target='_blank'
             rel='noreferrer'
           >
