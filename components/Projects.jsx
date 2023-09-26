@@ -22,6 +22,13 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
 
           <ProjectItem
+            title='Grow.It'
+            backgroundImg={growitImage}
+            projectUrl='/growit'
+            tech='React.js'
+          />
+
+          <ProjectItem
             title='Meals Catalogs'
             backgroundImg={recipes}
             projectUrl='/recipe'
@@ -36,32 +43,11 @@ const Projects = () => {
           />
 
           <ProjectItem
-            title='Library Manager'
-            backgroundImg={library_upskill}
-            projectUrl='/library'
-            tech='Angular'
-          />
-
-          <ProjectItem
             title='Food Catalog'
             backgroundImg={foodImage}
             projectUrl='/food'
             tech='ReactJs'
           />
-
-          <ProjectItem
-            title='Grow.It'
-            backgroundImg={growitImage}
-            projectUrl='/growit'
-            tech='React.js'
-          />
-          <ProjectItem
-            title='Real Estate - Upbnb'
-            backgroundImg={upbnb_upskill}
-            projectUrl='/upbnb'
-            tech='Angular'
-          />
-
 
           <ProjectItem
             title='Amortization List'
@@ -76,6 +62,19 @@ const Projects = () => {
             projectUrl='/npmproxy'
             tech='React'
           />
+          <ProjectItem
+            title='Library Manager'
+            backgroundImg={library_upskill}
+            projectUrl='/library'
+            tech='Angular'
+          />
+          <ProjectItem
+            title='Real Estate - Upbnb'
+            backgroundImg={upbnb_upskill}
+            projectUrl='/upbnb'
+            tech='Angular'
+          />
+
         </div>
       </div>
     </div>

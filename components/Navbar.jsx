@@ -12,7 +12,6 @@ const Navbar = () => {
   const [linkColor, setLinkColor] = useState('#1f2937');
 
   const handleNav = () => {
-    console.log("im working::: ")
     setNav(!nav);
   };
 
