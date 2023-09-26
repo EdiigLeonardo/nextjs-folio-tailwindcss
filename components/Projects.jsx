@@ -8,7 +8,7 @@ import recipes from '../public/assets/projects/recipes.png';
 import foodImage from '../public/assets/projects/food.png';
 import amortizationImage from '../public/assets/projects/amortization_list.png';
 import carImage from '../public/assets/projects/car_app.png';
-import dataImage from '../public/assets/projects/finance.png';
+import growitImage from '../public/assets/projects/growit.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -51,8 +51,8 @@ const Projects = () => {
 
           <ProjectItem
             title='Grow With Data'
-            backgroundImg={dataImage}
-            projectUrl='/finance'
+            backgroundImg={growitImage}
+            projectUrl='/growit'
             tech='React.js'
           />
           <ProjectItem
