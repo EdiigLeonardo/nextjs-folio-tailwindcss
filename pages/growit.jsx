@@ -35,14 +35,14 @@ const growit = () => {
             when an unknown printer took a galley of type and scrambled it to make a type specimen book.
           </p>
           <a
-            href='https://github.com/EdiigLeonardo/data-growit.git'
+            href='https://github.com/EdiigLeonardo/growit-frontend'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://food-app-vert-six.vercel.app'
+            href='growit-project.netlify.app'
             target='_blank'
             rel='noreferrer'
           >
