@@ -8,6 +8,7 @@ import recipes from '../public/assets/projects/recipes.png';
 import foodImage from '../public/assets/projects/food.png';
 import amortizationImage from '../public/assets/projects/amortization_list.png';
 import carImage from '../public/assets/projects/car_app.png';
+import dataImage from '../public/assets/projects/finance.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -21,29 +22,23 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
 
           <ProjectItem
-            title='Drive Car App'
-            backgroundImg={carImage}
-            projectUrl='/drive'
-            tech='React.js'
-          />
-          
-          <ProjectItem
-            title='Library Manager'
-            backgroundImg={library_upskill}
-            projectUrl='/library'
-            tech='Angular'
-          />
-
-          <ProjectItem
             title='Meals Catalogs'
             backgroundImg={recipes}
             projectUrl='/recipe'
             tech='Vue.js'
           />
+
           <ProjectItem
-            title='Real Estate - Upbnb'
-            backgroundImg={upbnb_upskill}
-            projectUrl='/upbnb'
+            title='Drive Car App'
+            backgroundImg={carImage}
+            projectUrl='/drive'
+            tech='React.js'
+          />
+
+          <ProjectItem
+            title='Library Manager'
+            backgroundImg={library_upskill}
+            projectUrl='/library'
             tech='Angular'
           />
 
@@ -53,6 +48,20 @@ const Projects = () => {
             projectUrl='/food'
             tech='ReactJs'
           />
+
+          <ProjectItem
+            title='Grow With Data'
+            backgroundImg={dataImage}
+            projectUrl='/finance'
+            tech='React.js'
+          />
+          <ProjectItem
+            title='Real Estate - Upbnb'
+            backgroundImg={upbnb_upskill}
+            projectUrl='/upbnb'
+            tech='Angular'
+          />
+
 
           <ProjectItem
             title='Amortization List'
