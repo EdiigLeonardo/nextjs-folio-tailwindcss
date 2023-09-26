@@ -3,7 +3,7 @@ import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import Typed from 'react-typed';
+import Typewriter from 'typewriter-effect';
 
 const Main = () => {
   return (
@@ -17,7 +17,7 @@ const Main = () => {
             Hello World, I&#39;m <span className='text-secondary-color'> Edig</span>
           </h1>
           
-          <h1 className='py-2 text-gray-700'>A <Typed
+          <h1 className='py-2 text-gray-700'>A <Typewriter
             className='font-bold'
             strings={['Frontend Developer', 'Fullstack Developer ', 'Web Developer', 'Software Engineer']}
             typeSpeed={120}
