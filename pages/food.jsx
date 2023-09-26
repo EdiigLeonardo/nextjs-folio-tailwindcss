@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import recipes from "../public/assets/projects/recipes.png"
+import foodImage from "../public/assets/projects/food.png"
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const recipe = () => {
+const food = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -13,12 +13,12 @@ const recipe = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={recipes}
+          src={foodImage}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Recipes Blogspot</h2>
-          <h3>Vue.js / TailwindCss / NodeJS / RESTful API</h3>
+          <h3>Reactjs / TailwindCss / NodeJS / RESTful API</h3>
         </div>
       </div>
 
@@ -35,14 +35,14 @@ const recipe = () => {
             when an unknown printer took a galley of type and scrambled it to make a type specimen book.
           </p>
           <a
-            href='https://github.com/EdiigLeonardo/themealdb-vuejs.git'
+            href='https://github.com/EdiigLeonardo/food-app'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://meals-vuejs.netlify.app/'
+            href='https://food-app-vert-six.vercel.app'
             target='_blank'
             rel='noreferrer'
           >
@@ -54,7 +54,7 @@ const recipe = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1 '>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Vuejs
+                <RiRadioButtonFill className='pr-1' /> Reactjs
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> TailwindCss
@@ -82,4 +82,4 @@ const recipe = () => {
   );
 };
 
-export default recipe;
+export default food;
