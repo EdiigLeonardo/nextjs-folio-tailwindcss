@@ -16,13 +16,14 @@ const Main = () => {
           <h1 className='py-4 text-gray-700'>
             Hello World, I&#39;m <span className='text-secondary-color'> Edig</span>
           </h1>
-          
-          <h1 className='py-2 text-gray-700'>A <Typewriter
-            className='font-bold'
-            strings={['Frontend Developer', 'Fullstack Developer ', 'Web Developer', 'Software Engineer']}
-            typeSpeed={120}
-            backSpeed={140}
-            loop
+
+          <h1 className='py-2 text-gray-700'><Typewriter
+            options={{
+              strings: ['Fullstack Developer', 'Frontend', 'Backend', 'Software Engineering', 'Django', 'Vuejs',
+                'Angular', 'React', 'Next.js', 'Node','Express.js', 'Laravel', 'TypeScript','MongoDB','SQL'],
+              autoStart: true,
+              loop: true
+            }}
           />
           </h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
