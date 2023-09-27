@@ -21,7 +21,7 @@ import Php from '../public/assets/skills/php.png'
 
 const Skills = () => {
   return (
-    <div id='skills' className='w-full lg:h-screen p-2 mb-4'>
+    <div id='skills' className='w-full lg:h-screen p-2 mb-6'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Skills
