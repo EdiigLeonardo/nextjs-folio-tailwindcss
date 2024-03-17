@@ -74,7 +74,6 @@ const Projects = () => {
             projectUrl='/upbnb'
             tech='Angular'
           />
-
         </div>
       </div>
     </div>
